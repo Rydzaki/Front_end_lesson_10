@@ -6,18 +6,18 @@ console.log(arrNumRefactor);
 console.log("============================");
 
 // Преобразование строк в верхний регистр:
-const arr3 = ["Hello", "world"];
-const arr3New = arr3.map((n) => n.toUpperCase());
-console.log(arr3New);
+const arr = ["Hello", "world"];
+const arrNew = arr.map((n) => n.toUpperCase());
+console.log(arrNew);
 
 console.log("============================");
 
 //Вычисление суммы элементов:
 // Условие: Создайте массив чисел и используйте метод forEach, чтобы вычислить сумму всех элементов.
 
-let summ3 = 0;
-arrNum.forEach((n) => (summ3 += n));
-console.log(summ3);
+let sum = 0;
+arrNum.forEach((n) => (sum += n));
+console.log(sum);
 
 // Удаление отрицательных чисел:
 // Условие: Создайте массив чисел и используйте метод filter, чтобы удалить все отрицательные числа.
